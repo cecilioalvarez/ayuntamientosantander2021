@@ -13,7 +13,7 @@ namespace _003net
             Console.WriteLine(t1.marca);
             Console.WriteLine(t1.numero);
             t1.llamar();
-            */
+            
 
             // crea un objeto persona
             Persona p1 = new Persona();
@@ -32,25 +32,37 @@ namespace _003net
             Console.WriteLine(bombilla.Potencia);
             Console.WriteLine(bombilla.Encendida);
 
-            Bombilla[] lista= new Bombilla[3];
+           
             Bombilla b1=new Bombilla();
             b1.Potencia=20;
-            lista[0]=b1;
+          
 
 
             Bombilla b2=new Bombilla();
             b2.Potencia=30;
-            lista[1]=b2;
+           
 
              Bombilla b3=new Bombilla();
             b3.Potencia=60;
-            lista[2]=b3;
+           
             
+
+             Bombilla[] lista= new Bombilla[]{b1,b2,b3};
 
             for (int i=0;i<lista.Length;i++) {
 
               Console.WriteLine(lista[i].Potencia);
             }
+
+            */
+
+            Persona p1= new Persona("pedro",20);
+            Persona p1= new Persona("juan",30);
+
+            Console.WriteLine(p1.nombre);
+            Console.WriteLine(p1.edad);
+            
+            
 
         }
     }
