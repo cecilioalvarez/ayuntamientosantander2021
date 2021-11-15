@@ -4,6 +4,7 @@ namespace _003net
 {
 public class Bombilla {
     
+    public int numero;
     public int Potencia;
     public bool Encendida;
 
