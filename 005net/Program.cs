@@ -9,7 +9,8 @@ namespace _005net
             Rectangulo rectangulo= new Rectangulo(2,3);
             Console.WriteLine(rectangulo.Area());
             Console.WriteLine(rectangulo.Perimetro());
-
+            Documento documento= new Documento("hola soy un doc",1);
+            documento.Imprimir();
         }
     }
 }
