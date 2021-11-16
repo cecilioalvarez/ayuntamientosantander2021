@@ -13,6 +13,8 @@ namespace _005net
             documento.Imprimir();
             documento.Imprimir(2);
             documento.Imprimir(2,4);
+            Mesa mesa= new Mesa("pino","blanco");
+            Mesa mesa2= new Mesa(10,"abedul","marron");
         }
     }
 }

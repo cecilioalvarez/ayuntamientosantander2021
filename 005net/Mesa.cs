@@ -13,17 +13,14 @@ namespace _005net
          public Mesa(string Madera){
             this.Peso=10;
             this.Madera=Madera;
-            this.Color="blanco";
-            
+            this.Color="blanco";   
         }
-
          public Mesa(string Madera,string Color){
             this.Peso=10;
             this.Madera=Madera;
             this.Color=Color;
             
         }
-
     }
 
 }
