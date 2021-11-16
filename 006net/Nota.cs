@@ -20,14 +20,32 @@ public class Nota {
         this.Valor=valor;
     }
 
-    public void Incrementar1() {
+    public void Subir() {
 
         this.Valor++;
     }
 
-    public void Incrementar1() {
+    public void Bajar() {
 
         this.Valor--;
+    }
+
+    public bool esMayor(Nota otra) {
+
+        if (this.Valor>otra.Valor) {
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+     public static bool esMayor(Nota nota1,Nota nota2) {
+
+        if (nota1.Valor>nota2.Valor) {
+            return true;
+        }else {
+            return false;
+        }
     }
 }
 

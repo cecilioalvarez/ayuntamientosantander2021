@@ -4,6 +4,15 @@ namespace _006net
 public class Persona {
 
     private string nombre;
+    public static int Contador {get;set;}
+    public Persona (string Nombre, int Edad) {
+
+        this.Nombre=Nombre;
+        this.Edad=Edad;
+        Contador++;
+    }
+
+
 
     public string Nombre {
 
@@ -26,11 +35,6 @@ public class Persona {
         }
     }
 
-    public Persona (string Nombre, int Edad) {
-
-        this.Nombre=Nombre;
-        this.Edad=Edad;
-    }
 }
 
 }
