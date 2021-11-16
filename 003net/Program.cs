@@ -57,7 +57,7 @@ namespace _003net
             */
 
             Persona p1= new Persona("pedro",20);
-            Persona p1= new Persona("juan",30);
+            Persona p2= new Persona("juan",30);
 
             Console.WriteLine(p1.nombre);
             Console.WriteLine(p1.edad);
