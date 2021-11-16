@@ -3,7 +3,14 @@ namespace _006net
 
 public class Persona {
 
-    public string Nombre;
+    private string nombre;
+
+    public string Nombre {
+
+        get { return  this.nombre;}
+        set {nombre=value;}
+
+    }
     private int edad;
 
     public int Edad {
