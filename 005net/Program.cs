@@ -11,6 +11,8 @@ namespace _005net
             Console.WriteLine(rectangulo.Perimetro());
             Documento documento= new Documento("hola soy un doc",1);
             documento.Imprimir();
+            documento.Imprimir(2);
+            documento.Imprimir(2,4);
         }
     }
 }

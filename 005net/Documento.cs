@@ -15,10 +15,15 @@ namespace _005net
             public  void Imprimir() {
                 Console.WriteLine(this.Texto);
             }
+            //sobrecarga estatica o overload
+            public void Imprimir(int Pagina) {
 
-            public void ImprimirPagina(int Pagina) {
+                Console.WriteLine(this.Texto + " estamos en la pagina "+ Pagina);
+            }
 
-                Console.WriteLine(this.Texto + "estamos en la pagina"+ Pagina);
+            public void Imprimir(int PaginaInicio,int PaginaFin) {
+
+                Console.WriteLine(this.Texto + " desde la pagina "+ PaginaInicio +" hasta" + PaginaFin);
             }
         }
 }
