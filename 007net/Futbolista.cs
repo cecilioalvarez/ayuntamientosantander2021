@@ -5,7 +5,9 @@ namespace _007net
     public class Futbolista
     {
 
-
+        public static int Contador { get; set; }
+        
+        
         public string Nombre { get; set; }
         public string Equipo { get; set; }
 
@@ -14,11 +16,14 @@ namespace _007net
         public Futbolista(string Nombre, string Equipo, int Nivel)
         {
             // this es un operador de ambito
+            // pepe=pepe;
             this.Nombre = Nombre;
             this.Equipo = Equipo;
             this.Nivel = Nivel;
+            Contador=Contador+1;
 
         }
+        
 
          public Futbolista(string Nombre, string Equipo)
         {
@@ -26,6 +31,8 @@ namespace _007net
             this.Nombre = Nombre;
             this.Equipo = Equipo;
             this.Nivel = 1;
+            Contador=Contador+1;
+
 
         }
 
