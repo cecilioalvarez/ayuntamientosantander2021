@@ -22,12 +22,24 @@ namespace _006net
             nota.Subir();
               Console.WriteLine(nota.Valor);
             */
-
+    /*
             Nota n1= new Nota(5);
             Nota n2= new Nota(7);
             // usar un metodo que pertenece al objeto
             Console.WriteLine(n1.esMayor(n2));
             Console.WriteLine(Nota.esMayor(n1,n2));
+        
+
+        
+        Console.WriteLine(Calculadora.sumar(2,2));
+        Console.WriteLine(Calculadora.restar(2,3));
+        
+        */
+        Nota minota= new Nota(12);
+
+        Console.WriteLine(minota.Valor);
+        minota.Valor=7;
+         Console.WriteLine(minota.Valor);
         }
     }
 }

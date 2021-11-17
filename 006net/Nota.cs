@@ -15,9 +15,9 @@ public class Nota {
             }
         }
     }
-    public Nota(double valor) {
+    public Nota(double valorinicial) {
 
-        this.Valor=valor;
+        this.Valor=valorinicial;
     }
 
     public void Subir() {
