@@ -14,7 +14,7 @@ namespace _008net
                 this.Marca=Marca;
                 this.Precio=Precio;
                 this.MonitorA=MonitorA;
-                
+
         }
        
         
