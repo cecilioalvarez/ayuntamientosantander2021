@@ -1,0 +1,15 @@
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/bin/Debug/net5.0/008net.deps.json
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/bin/Debug/net5.0/008net.runtimeconfig.json
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/bin/Debug/net5.0/008net.runtimeconfig.dev.json
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/bin/Debug/net5.0/008net.dll
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/bin/Debug/net5.0/ref/008net.dll
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/bin/Debug/net5.0/008net.pdb
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/008net.csproj.AssemblyReference.cache
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/008net.GeneratedMSBuildEditorConfig.editorconfig
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/008net.AssemblyInfoInputs.cache
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/008net.AssemblyInfo.cs
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/008net.csproj.CoreCompileInputs.cache
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/008net.dll
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/ref/008net.dll
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/008net.pdb
+/Users/cecilioalvarezcaules/Desktop/cursonet2/008net/obj/Debug/net5.0/008net.genruntimeconfig.cache
