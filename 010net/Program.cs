@@ -6,16 +6,21 @@ namespace _010net
     {
         static void Main(string[] args)
         {
-           Aula a = new Aula(1);
-           a.Alumnos.Add(new Alumno("pedro"));
-           a.Alumnos.Add(new Alumno("juan"));
-           a.Alumnos.Add(new Alumno("antonio"));
-           a.Alumnos.Add(new Alumno("maria"));
+            Aula a = new Aula(1);
+            a.AddAlumno(new Alumno("pedro", 20));
+            a.AddAlumno(new Alumno("juan", 80));
+            a.AddAlumno(new Alumno("antonio", 10));
+            a.AddAlumno(new Alumno("maria", 15));
            
-           for (int i=0;i<a.Alumnos.Count;i++) {
+           
 
-               Console.WriteLine(a.Alumnos[i].Nombre);
-           }
+            Console.WriteLine(a.AlumnoMayor().Nombre);
+            Console.WriteLine(a.AlumnoMayor().Edad);
+            
+           
+           
+
+
         }
     }
 }
